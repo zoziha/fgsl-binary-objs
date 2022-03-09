@@ -1,0 +1,20 @@
+name = "fgsl-binary-objs"
+version = "0.1.0"
+license = "GPLv2.0"
+author = "zoziha"
+maintainer = "zuo.zhihua@qq.com"
+copyright = "Copyright 2022, zoziha"
+
+[build]
+auto-executables = true
+auto-tests = true
+auto-examples = true
+
+link = ["fgsl"]
+external-modules = ["fgsl"]
+
+[install]
+library = false
+
+[library]
+include-dir = ["inc"]
